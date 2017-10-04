@@ -1,12 +1,16 @@
-# {plugin_name}
+# WooCommerce Subscriptions - Cancel on Refund
 
-{plugin_short_description}
+Cancel a subscription when its parent order or last renewal order is fully refunded.
+
+The subscription will be transitioned immediately to the _cancelled_ status. It will not go via _pending cancellation_.
+
+If the refund is not on the most recent order, the subscription will not be cancelled. For example, if a subscription has both a renewal order and a parent order, and only the parent order is refunded.
 
 ## Installation
 
 To install:
 
-1. Download the latest version of the plugin [here](https://github.com/Prospress/{plugin_slug}/archive/master.zip)
+1. Download the latest version of the plugin [here](https://github.com/Prospress/woocommerce-subscriptions-cancel-on-refund/archive/master.zip)
 1. Go to **Plugins > Add New > Upload** administration screen on your WordPress site
 1. Select the ZIP file you just downloaded
 1. Click **Install Now**
@@ -18,7 +22,7 @@ To keep the plugin up-to-date, use the [GitHub Updater](https://github.com/afrag
 
 ## Reporting Issues
 
-If you find an problem or would like to request this plugin be extended, please [open a new Issue](https://github.com/Prospress/{plugin_slug}/issues/new).
+If you find an problem or would like to request this plugin be extended, please [open a new Issue](https://github.com/Prospress/woocommerce-subscriptions-cancel-on-refund/issues/new).
 
 ---
 
