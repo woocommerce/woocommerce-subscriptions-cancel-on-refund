@@ -11,10 +11,13 @@
  * Requires at least: 4.0
  * Tested up to: 4.8
  *
+ * WC requires at least: 3.0
+ * WC tested up to: 3.5
+ *
  * GitHub Plugin URI: Prospress/woocommerce-subscriptions-cancel-on-refund
  * GitHub Branch: master
  *
- * Copyright 2017 Prospress, Inc.  (email : freedoms@prospress.com)
+ * Copyright 2019 Prospress, Inc.  (email : freedoms@prospress.com)
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
